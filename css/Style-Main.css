@@ -3,5 +3,17 @@ header{
 	background-color: #F5E1BF;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 400px;
+	padding-bottom: 50px;
 }
+
+body{
+	margin: 0;
+}
+
+header img{
+	border-radius: 200px;
+	width: 400px;
+	border-color: gray;	
+}
+
+
