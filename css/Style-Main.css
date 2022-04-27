@@ -25,10 +25,6 @@ main{
 	margin: 0: auto;
 }
 
-button{
-	border-radius: 30px;
-}
-
 header{
 	background-color: #F5E1BF;
 	text-align: center;
@@ -48,11 +44,12 @@ footer{
 	background-color: #333;
 	text-align: center;
 	color: white;
-	padding: 40px;
+	padding: 10px;
 }
 
 footer p{
 	margin: 0;
+	padding: 15px;
 }
 
 footer a{
@@ -65,9 +62,99 @@ footer a: hover{
 
 .abt{
 	font-family: sans-serif;
-	padding-bottom: 10px;
 	text-align: left;
 	max-width: 800px;
 }
+.profilefinal{
+position: absolute;
+top: -0px;
+right: 0px;
+padding: 80px;
+padding-left: 20px;
+}
 
+body{
+	background-color: #F5E1BF;
+}
 
+.para{
+	padding-bottom: 53px;
+}
+
+#volleyball{
+	position: relative; top: -40px; 
+}
+
+#email{
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+/*contact form*/
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#www{
+	font-size: 40px;
+	text-align: center;
+}
+
+#para1{
+	margin-right: 800px;
+}
+
+.video{
+position: absolute;
+top: 85px;
+right: 0px;
+padding: 80px;
+left: 650px;
+}
+
+#head1{
+	padding-top: 30px;
+}
+
+#head2{
+	padding-top: 50px;
+}
+
+#para4{
+	padding-left: 650px;
+	padding-bottom: 50px;
+}
+
+#internet{
+position: absolute;
+top: 970px;
+left: 200px;
+padding-left: 20px;
+}

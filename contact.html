@@ -14,16 +14,39 @@
   <a href="topic1.html">World Wide Web</a>
   <a href="topic2.html">Topic 2</a>
 </div>
-
 </head>
-<body>
 
-<header>
-  <h1 id="Home">This website was created by Raymond Quach!</h1>
-  <img src="img/Raymond.jpeg">
+<h1>&nbsp;&nbsp;How to contact me</h1>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Contact me through</p>
+<a id="email" href = "mailto: raymond.quach1@education.nsw.gov.au">Send Email</a>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;or by sending an email to raymond.quach1@education.nsw.gov.au</p>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
    
 <footer>
-    <p>This website was created by Raymond Quach for the Term 1 IST Assignment. &copy; Raymond</p>
+   <p><center>This website was created by Raymond Quach for the Term 1 IST Assignment. &copy; Raymond</center></p>
   </footer>
 
 </html>
